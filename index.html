@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palindrome Checker</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" >
 </head>
 <body>
     <main>
         <h1>Palindrome Checker</h1>
         <p>A palindrome is a word or phrase that reads the same backwards as forwards, e.g level, refer.</p>
-        <input type="text" placeholder="Enter a word or phrase">
-        <button>Check Palindrome</button>
+        <input type="text" placeholder="Enter a word or phrase" id="text">
+        <button onclick="check()">Check Palindrome</button>
+
+        <p id="result"></p>
     </main>
 
     <script src="main.js"></script>
